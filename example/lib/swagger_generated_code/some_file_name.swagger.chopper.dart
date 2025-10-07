@@ -1,3 +1,4 @@
+// dart format width=80
 //Generated code
 
 part of 'some_file_name.swagger.dart';
@@ -33,6 +34,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -53,6 +55,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -73,6 +76,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       parameters: $params,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<List<Pet>, Pet>($request);
   }
@@ -93,6 +97,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       parameters: $params,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<List<Pet>, Pet>($request);
   }
@@ -113,6 +118,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<Pet, Pet>($request);
   }
@@ -138,6 +144,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -158,6 +165,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -183,6 +191,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<ApiResponse, ApiResponse>($request);
   }
@@ -202,6 +211,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<Object, Object>($request);
   }
@@ -222,6 +232,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<Order, Order>($request);
   }
@@ -240,6 +251,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<Order, Order>($request);
   }
@@ -258,6 +270,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -278,6 +291,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -298,6 +312,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -318,6 +333,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -342,6 +358,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       parameters: $params,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<String, String>($request);
   }
@@ -357,6 +374,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -375,6 +393,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<User, User>($request);
   }
@@ -396,6 +415,7 @@ final class _$SomeFileName extends SomeFileName {
       client.baseUrl,
       body: $body,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
@@ -414,6 +434,7 @@ final class _$SomeFileName extends SomeFileName {
       $url,
       client.baseUrl,
       headers: $headers,
+      includeNullQueryVars: true,
     );
     return client.send<dynamic, dynamic>($request);
   }
